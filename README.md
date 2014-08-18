@@ -1,7 +1,9 @@
 lz4
 ===
 
-LZ4 de/compresor for Golang
+[LZ4](https://code.google.com/p/lz4/) is a very fast lossless compression algorithm, providing compression speed at 400 MB/s per core, scalable with multi-cores CPU. It also features an extremely fast decoder, with speed in multiple GB/s per core, typically reaching RAM speed limits on multi-core systems.
+
+This is LZ4 de/compresor for GO language. Currently supports basic LZ4 compression/decompression (no HC), and streaming format.
 
 Speed on Intel G1610:<br>
 Compresion: 209 MB/s, about 60% of C version speed<br>
